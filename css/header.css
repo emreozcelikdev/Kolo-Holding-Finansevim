@@ -1,0 +1,38 @@
+.body #header .icon {
+  justify-content: space-between;
+}
+
+.body #header .icon a > figure > img {
+  padding: 10px 0 0 45px;
+  width: 100%;
+}
+
+.main-menu {
+  justify-content: flex-end;
+}
+
+.body #header .main-menu > ul > li {
+  float: left;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  padding: 30px 10px;
+  color: #fff;
+}
+
+.body #header .main-menu > ul > li > a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  padding: 15px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobil-menu {
+  float: right;
+  margin: 10px 0 20px 0;
+}
